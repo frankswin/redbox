@@ -20,3 +20,4 @@ COPY . .
 RUN docker build -t image .
 RUN docker run -d -p 3000:3000 image
 EXPOSE WEBSITE http://localhost:3000
+EXPOSE WEBSITE http://redbox.onwebapp.io:3000/
